@@ -1411,7 +1411,7 @@ document.getElementById('levCalcBtn').addEventListener('click', () => {{
 </body>
 </html>"""
 
-out = os.path.join(OUTPUT_DIR, "backtest_result.html")
+out = os.path.join(OUTPUT_DIR, "index.html")
 with open(out, "w", encoding="utf-8") as f:
     f.write(html)
 print(f"\n✅ 完成！請用瀏覽器開啟：\n   {out}")
