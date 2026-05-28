@@ -48,10 +48,12 @@ MANUAL_SPLITS = {
 LOCAL_TICKERS = {
     "元大龍頭台幣A": {"name": "元大龍頭台幣A",    "currency": "TWD", "file": "元大龍頭台幣"},
     "安聯台灣智慧":  {"name": "安聯台灣智慧基金",  "currency": "TWD", "file": "安聯台灣智慧基金"},
+    "安聯台灣科技":  {"name": "安聯台灣科技基金",  "currency": "TWD", "file": "安聯台灣科技"},
 }
 TICKER_COLORS.update({
     "元大龍頭台幣A": ("#56d364", "#1f6feb"),
     "安聯台灣智慧":  ("#ffa657", "#ff7b72"),
+    "安聯台灣科技":  ("#bc8cff", "#d2a8ff"),
 })
 BADGE_STYLES = {
     "0050.TW":   ("#1f3a5f", "#79c0ff"),
@@ -61,6 +63,7 @@ BADGE_STYLES = {
     "SPY":       ("#2e2a1a", "#e3b341"),
     "元大龍頭台幣A": ("#1e3a2e", "#56d364"),
     "安聯台灣智慧":  ("#3d2a0f", "#ffa657"),
+    "安聯台灣科技":  ("#2a1e3d", "#bc8cff"),
 }
 DEFAULT_TICKER = "0050.TW"
 CUTOFF_2024    = "2024-12-31"
@@ -771,6 +774,7 @@ const BADGE_STYLE = {{
   'SPDR S&P 500':        ['#2e2a1a','#e3b341'],
   '元大龍頭台幣A':        ['#1e3a2e','#56d364'],
   '安聯台灣智慧基金':     ['#3d2a0f','#ffa657'],
+  '安聯台灣科技基金':     ['#2a1e3d','#bc8cff'],
 }};
 
 function fmt(n, ccy) {{
